@@ -875,6 +875,14 @@
     padding: 0 15px 18px;
   }
 }
+@media(max-width: 440px){
+  .steck__box:nth-child(5){
+    margin-right: 34px;
+  }
+  .steck__box:nth-child(6){
+    margin-right: 34px;
+  }
+}
 @media(max-width: 420px){
   .action__title{
     font-size: 27px;
@@ -894,6 +902,7 @@
     line-height: 23px;
     padding: 22px 10px;
   }
+  
 }
 @media(max-width:396px){
   .service__text{
@@ -965,6 +974,12 @@
   }
   .bonus__card-text{
     width: 293px;
+  }
+  .steck__box:nth-child(5){
+    margin-right: 0;
+  }
+  .steck__box:nth-child(6){
+    margin-right: 0;
   }
 }
 @media(max-width:340px){
